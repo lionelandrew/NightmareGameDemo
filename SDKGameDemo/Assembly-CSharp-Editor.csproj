@@ -252,28 +252,28 @@
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="JsonFx.Json">
- <HintPath>C:/Users/User/Documents/SDKGameDemo/Assets/SocialPlay/Plugins/dlls/JsonFx.Json.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/Socialplay/NightmareGameDemo/SDKGameDemo/Assets/SocialPlay/Plugins/dlls/JsonFx.Json.dll</HintPath>
  </Reference>
  <Reference Include="LitJson">
- <HintPath>C:/Users/User/Documents/SDKGameDemo/Assets/SocialPlay/Plugins/dlls/LitJson.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/Socialplay/NightmareGameDemo/SDKGameDemo/Assets/SocialPlay/Plugins/dlls/LitJson.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>C:/Users/User/Documents/SDKGameDemo/Assets/SocialPlay/Plugins/dlls/Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/Socialplay/NightmareGameDemo/SDKGameDemo/Assets/SocialPlay/Plugins/dlls/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="protobuf-net">
- <HintPath>C:/Users/User/Documents/SDKGameDemo/Assets/SocialPlay/Plugins/dlls/protobuf-net.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/Socialplay/NightmareGameDemo/SDKGameDemo/Assets/SocialPlay/Plugins/dlls/protobuf-net.dll</HintPath>
  </Reference>
  <Reference Include="SocialPlay.Data">
- <HintPath>C:/Users/User/Documents/SDKGameDemo/Assets/SocialPlay/Plugins/dlls/SocialPlay.Data.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/Socialplay/NightmareGameDemo/SDKGameDemo/Assets/SocialPlay/Plugins/dlls/SocialPlay.Data.dll</HintPath>
  </Reference>
  <Reference Include="SocialPlay.Generic">
- <HintPath>C:/Users/User/Documents/SDKGameDemo/Assets/SocialPlay/Plugins/dlls/SocialPlay.Generic.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/Socialplay/NightmareGameDemo/SDKGameDemo/Assets/SocialPlay/Plugins/dlls/SocialPlay.Generic.dll</HintPath>
  </Reference>
  <Reference Include="SocialPlay.Service">
- <HintPath>C:/Users/User/Documents/SDKGameDemo/Assets/SocialPlay/Plugins/dlls/SocialPlay.Service.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/Socialplay/NightmareGameDemo/SDKGameDemo/Assets/SocialPlay/Plugins/dlls/SocialPlay.Service.dll</HintPath>
  </Reference>
  <Reference Include="IFacebook">
- <HintPath>C:/Users/User/Documents/SDKGameDemo/Assets/SocialPlay/Prefab/UI/Facebook/Scripts/IFacebook.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/Socialplay/NightmareGameDemo/SDKGameDemo/Assets/SocialPlay/Prefab/UI/Facebook/Scripts/IFacebook.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -282,8 +282,6 @@
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{0FF2A5DD-1C08-118A-8DDC-C69958E96835}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
-    <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{891A2A56-0A1D-A7B2-8560-190140E23C20}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

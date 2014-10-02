@@ -5,7 +5,6 @@ public class InventoryManager : MonoBehaviour {
 
     public GameObject Inventory;
     public GameObject Weapon;
-    public GameObject Armour;
 
     bool isInventoryShowing = false;
 
@@ -28,7 +27,6 @@ public class InventoryManager : MonoBehaviour {
         {
             Inventory.SetActive(true);
             Weapon.SetActive(true);
-            Armour.SetActive(true);
 
             isInventoryShowing = true;
         }
@@ -36,7 +34,6 @@ public class InventoryManager : MonoBehaviour {
         {
             Inventory.SetActive(false);
             Weapon.SetActive(false);
-            Armour.SetActive(false);
 
             isInventoryShowing = false;
         }
@@ -46,6 +43,5 @@ public class InventoryManager : MonoBehaviour {
     {
         Inventory.GetComponentInChildren<LoadItemsForContainer>().LoadItems();
         Weapon.GetComponentInChildren<LoadItemsForContainer>().LoadItems();
-        Armour.GetComponentInChildren<LoadItemsForContainer>().LoadItems();
     }
 }
